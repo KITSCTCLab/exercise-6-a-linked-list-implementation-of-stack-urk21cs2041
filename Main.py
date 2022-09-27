@@ -1,11 +1,12 @@
+
 class Node:
-  def __init__(self, data):
+  def _init_(self, data):
     self.data = data
     self.next = None
 #     self.top=None
 
 class Stack:
-  def __init__(self):
+  def _init_(self):
     self.top = None
     #self.top=None
   def push(self, data) -> None:
